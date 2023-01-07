@@ -49,6 +49,9 @@ Run the script with this command:
 
 If everything goes right, you'll see a simple JSON dump to your terminal window showing your API key and Mobile Id. Save these somewhere, because they are very important and you can't ever get them again without doing step 3 again. And keep them private, because otherwise someone else can mess with your thermostat.
 
+If trying this with TraneHome edit the file index.js in @cdmnky/nexia-api so that the base URL points to https://www.tranehome.com/mobile/
+
+
 ## 6. Update Homebridge Config
 Time to update the Homebridge config to replace the placeholders from step 2.
 "accessory" must be "NexiaThermostat"
